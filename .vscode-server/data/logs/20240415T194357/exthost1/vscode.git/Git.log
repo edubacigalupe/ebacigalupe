@@ -1,0 +1,240 @@
+2024-04-15 19:43:59.457 [info] Log level: Info
+2024-04-15 19:43:59.457 [info] Validating found git in: "git"
+2024-04-15 19:43:59.457 [info] Using git "2.34.1" from "git"
+2024-04-15 19:43:59.457 [info] > git rev-parse --show-toplevel [3ms]
+2024-04-15 19:43:59.457 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2024-04-15 19:43:59.457 [info] Open repository: /home/ebacigalupe
+2024-04-15 19:43:59.457 [info] > git rev-parse --show-toplevel [2ms]
+2024-04-15 19:43:59.457 [info] > git config --get commit.template [6ms]
+2024-04-15 19:43:59.465 [info] No remotes found in the git config file.
+2024-04-15 19:43:59.466 [info] > git rev-parse --show-toplevel [5ms]
+2024-04-15 19:43:59.466 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-04-15 19:43:59.466 [warning] No such branch: master.
+2024-04-15 19:43:59.477 [info] > git rev-parse --show-toplevel [3ms]
+2024-04-15 19:43:59.483 [info] > git status -z -uall [13ms]
+2024-04-15 19:43:59.483 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-04-15 19:43:59.485 [info] Open repository: /home/ebacigalupe/.pyenv
+2024-04-15 19:43:59.547 [info] > git config --get commit.template [53ms]
+2024-04-15 19:43:59.547 [info] > git rev-parse --show-toplevel [57ms]
+2024-04-15 19:43:59.747 [info] > git config --get commit.template [203ms]
+2024-04-15 19:43:59.764 [info] > git rev-parse --show-toplevel [34ms]
+2024-04-15 19:43:59.769 [info] No remotes found in the git config file.
+2024-04-15 19:43:59.774 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [19ms]
+2024-04-15 19:43:59.775 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-04-15 19:43:59.778 [info] Open repository: /home/ebacigalupe/zrive-ds-project
+2024-04-15 19:43:59.783 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [14ms]
+2024-04-15 19:43:59.783 [warning] No such branch: master.
+2024-04-15 19:43:59.793 [warning] ENOENT: no such file or directory, open '/home/ebacigalupe/.pyenv/.git/refs/remotes/origin/master'
+2024-04-15 19:43:59.799 [info] > git config --get commit.template [2ms]
+2024-04-15 19:43:59.799 [info] > git rev-parse refs/remotes/origin/master [6ms]
+2024-04-15 19:43:59.811 [info] No remotes found in the git config file.
+2024-04-15 19:43:59.812 [info] > git status -z -uall [23ms]
+2024-04-15 19:43:59.831 [info] > git status -z -uall [27ms]
+2024-04-15 19:43:59.831 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [21ms]
+2024-04-15 19:43:59.831 [warning] No such branch: master.
+2024-04-15 19:43:59.850 [info] > git status -z -uall [15ms]
+2024-04-15 19:43:59.850 [info] > git merge-base refs/heads/master refs/remotes/origin/master [11ms]
+2024-04-15 19:43:59.870 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [14ms]
+2024-04-15 19:43:59.875 [info] > git config --get commit.template [27ms]
+2024-04-15 19:43:59.881 [info] > git diff --name-status -z --diff-filter=ADMR e1f07da73ae09d6fc0b0322e4f577679dc7c7ce5...refs/remotes/origin/master [7ms]
+2024-04-15 19:43:59.882 [info] > git config --get commit.template [17ms]
+2024-04-15 19:43:59.896 [info] No remotes found in the git config file.
+2024-04-15 19:43:59.896 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2024-04-15 19:43:59.901 [warning] ENOENT: no such file or directory, open '/home/ebacigalupe/.pyenv/.git/refs/remotes/origin/master'
+2024-04-15 19:43:59.901 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2024-04-15 19:43:59.902 [warning] No such branch: master.
+2024-04-15 19:43:59.905 [info] > git status -z -uall [0ms]
+2024-04-15 19:43:59.906 [info] > git rev-parse refs/remotes/origin/master [5ms]
+2024-04-15 19:44:00.162 [info] > git status -z -uall [252ms]
+2024-04-15 19:44:00.363 [info] > git check-ignore -v -z --stdin [7ms]
+2024-04-15 19:44:00.364 [info] > git check-ignore -v -z --stdin [5ms]
+2024-04-15 19:44:00.364 [info] > git check-ignore -v -z --stdin [2ms]
+2024-04-15 19:44:04.279 [info] > git config --get commit.template [1ms]
+2024-04-15 19:44:04.282 [info] No remotes found in the git config file.
+2024-04-15 19:44:04.283 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-04-15 19:44:04.283 [warning] No such branch: master.
+2024-04-15 19:44:04.295 [info] > git status -z -uall [9ms]
+2024-04-15 19:44:09.322 [info] > git config --get commit.template [1ms]
+2024-04-15 19:44:09.325 [info] No remotes found in the git config file.
+2024-04-15 19:44:09.326 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-04-15 19:44:09.326 [warning] No such branch: master.
+2024-04-15 19:44:09.337 [info] > git status -z -uall [8ms]
+2024-04-15 19:44:11.204 [info] > git merge-base refs/heads/master refs/remotes/origin/master [1ms]
+2024-04-15 19:44:11.211 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [1ms]
+2024-04-15 19:44:11.919 [info] > git check-ignore -v -z --stdin [1ms]
+2024-04-15 19:44:14.310 [info] > git check-ignore -v -z --stdin [1ms]
+2024-04-15 19:44:14.369 [info] > git config --get commit.template [3ms]
+2024-04-15 19:44:14.369 [info] No remotes found in the git config file.
+2024-04-15 19:44:14.369 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-04-15 19:44:14.369 [warning] No such branch: master.
+2024-04-15 19:44:14.381 [info] > git status -z -uall [9ms]
+2024-04-15 19:44:15.988 [info] > git check-ignore -v -z --stdin [0ms]
+2024-04-15 19:44:19.411 [info] No remotes found in the git config file.
+2024-04-15 19:44:19.412 [info] > git config --get commit.template [4ms]
+2024-04-15 19:44:19.415 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-04-15 19:44:19.415 [warning] No such branch: master.
+2024-04-15 19:44:19.427 [info] > git status -z -uall [8ms]
+2024-04-15 19:44:26.773 [info] > git add -A -- . [2854ms]
+2024-04-15 19:44:26.773 [info] warning: adding embedded git repository: .pyenv
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint: 	git submodule add <url> .pyenv
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint: 	git rm --cached .pyenv
+hint: 
+hint: See "git help submodule" for more information.
+error: 'zrive-ds-project/' does not have a commit checked out
+fatal: adding files failed
+2024-04-15 19:44:26.781 [info] No remotes found in the git config file.
+2024-04-15 19:44:26.781 [info] > git config --get commit.template [4ms]
+2024-04-15 19:44:26.781 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2024-04-15 19:44:26.781 [warning] No such branch: master.
+2024-04-15 19:44:26.793 [info] > git status -z -uall [8ms]
+2024-04-15 19:44:26.820 [info] No remotes found in the git config file.
+2024-04-15 19:44:26.820 [info] > git config --get commit.template [4ms]
+2024-04-15 19:44:26.820 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2024-04-15 19:44:26.821 [warning] No such branch: master.
+2024-04-15 19:44:26.836 [info] > git status -z -uall [11ms]
+2024-04-15 19:44:32.300 [info] > git config --get commit.template [1ms]
+2024-04-15 19:44:32.305 [info] No remotes found in the git config file.
+2024-04-15 19:44:32.306 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-04-15 19:44:32.307 [warning] No such branch: master.
+2024-04-15 19:44:32.321 [info] > git status -z -uall [9ms]
+2024-04-15 19:44:38.423 [info] > git config --get commit.template [7ms]
+2024-04-15 19:44:38.429 [info] No remotes found in the git config file.
+2024-04-15 19:44:38.430 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-04-15 19:44:38.430 [warning] No such branch: master.
+2024-04-15 19:44:38.445 [info] > git status -z -uall [10ms]
+2024-04-15 19:44:38.838 [info] > git add -A -- . [415ms]
+2024-04-15 19:44:38.838 [info] warning: adding embedded git repository: .pyenv
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint: 	git submodule add <url> .pyenv
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint: 	git rm --cached .pyenv
+hint: 
+hint: See "git help submodule" for more information.
+error: 'zrive-ds-project/' does not have a commit checked out
+fatal: adding files failed
+2024-04-15 19:44:38.844 [info] > git config --get commit.template [1ms]
+2024-04-15 19:44:38.845 [info] No remotes found in the git config file.
+2024-04-15 19:44:38.850 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-04-15 19:44:38.850 [warning] No such branch: master.
+2024-04-15 19:44:38.865 [info] > git status -z -uall [10ms]
+2024-04-15 19:44:42.863 [info] > git check-ignore -v -z --stdin [0ms]
+2024-04-15 19:44:43.468 [info] > git config --get commit.template [1ms]
+2024-04-15 19:44:43.473 [info] No remotes found in the git config file.
+2024-04-15 19:44:43.473 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-04-15 19:44:43.473 [warning] No such branch: master.
+2024-04-15 19:44:43.489 [info] > git status -z -uall [11ms]
+2024-04-15 19:44:48.518 [info] > git config --get commit.template [1ms]
+2024-04-15 19:44:48.524 [info] No remotes found in the git config file.
+2024-04-15 19:44:48.525 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-04-15 19:44:48.525 [warning] No such branch: master.
+2024-04-15 19:44:48.538 [info] > git status -z -uall [8ms]
+2024-04-15 19:44:50.225 [info] > git add -A -- . [3ms]
+2024-04-15 19:44:50.225 [info] warning: adding embedded git repository: zrive-ds
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint: 	git submodule add <url> zrive-ds
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint: 	git rm --cached zrive-ds
+hint: 
+hint: See "git help submodule" for more information.
+2024-04-15 19:44:50.234 [info] > git -c user.useConfigOnly=true commit --quiet [2ms]
+2024-04-15 19:44:50.234 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2024-04-15 19:44:50.240 [info] > git config --get-all user.name [1ms]
+2024-04-15 19:44:50.248 [info] > git config --get commit.template [2ms]
+2024-04-15 19:44:50.248 [info] No remotes found in the git config file.
+2024-04-15 19:44:50.254 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2024-04-15 19:44:50.255 [warning] No such branch: master.
+2024-04-15 19:44:50.267 [info] > git status -z -uall [4ms]
+2024-04-15 19:44:50.939 [info] > git check-ignore -v -z --stdin [1ms]
+2024-04-15 19:44:52.987 [info] > git config --get commit.template [1ms]
+2024-04-15 19:44:52.994 [info] No remotes found in the git config file.
+2024-04-15 19:44:52.995 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-04-15 19:44:52.995 [warning] No such branch: master.
+2024-04-15 19:44:53.003 [info] > git status -z -uall [2ms]
+2024-04-15 19:44:53.562 [info] > git config --get commit.template [1ms]
+2024-04-15 19:44:53.568 [info] No remotes found in the git config file.
+2024-04-15 19:44:53.569 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2024-04-15 19:44:53.569 [warning] No such branch: master.
+2024-04-15 19:44:53.584 [info] > git status -z -uall [10ms]
+2024-04-15 19:45:54.823 [info] > git show --textconv :.git/COMMIT_EDITMSG [4ms]
+2024-04-15 19:45:54.824 [info] > git ls-files --stage -- /home/ebacigalupe/zrive-ds-project/.git/COMMIT_EDITMSG [1ms]
+2024-04-15 19:45:55.147 [info] > git check-ignore -v -z --stdin [0ms]
+2024-04-15 19:46:09.516 [info] > git config --get commit.template [1ms]
+2024-04-15 19:46:09.526 [info] No remotes found in the git config file.
+2024-04-15 19:46:09.527 [info] > git ls-files --stage -- /home/ebacigalupe/zrive-ds-project/.git/COMMIT_EDITMSG [1ms]
+2024-04-15 19:46:09.527 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2024-04-15 19:46:09.528 [warning] No such branch: master.
+2024-04-15 19:46:09.543 [info] > git status -z -uall [12ms]
+2024-04-15 19:46:09.577 [info] > git show --textconv :.git/COMMIT_EDITMSG [1ms]
+2024-04-15 19:46:09.609 [info] > git -c user.useConfigOnly=true commit --quiet [15125ms]
+2024-04-15 19:46:09.621 [info] No remotes found in the git config file.
+2024-04-15 19:46:09.622 [info] > git config --get commit.template [8ms]
+2024-04-15 19:46:09.625 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-04-15 19:46:09.634 [info] > git status -z -uall [4ms]
+2024-04-15 19:46:09.814 [info] > git config --get commit.template [3ms]
+2024-04-15 19:46:09.814 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master [9ms]
+2024-04-15 19:46:09.820 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master [1ms]
+2024-04-15 19:46:09.826 [info] No remotes found in the git config file.
+2024-04-15 19:46:09.839 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2024-04-15 19:46:09.844 [info] > git config --local branch.master.vscode-merge-base [19ms]
+2024-04-15 19:46:09.845 [warning] git config failed: Failed to execute git
+2024-04-15 19:46:09.850 [info] > git status -z -uall [5ms]
+2024-04-15 19:46:09.851 [info] > git reflog refs/heads/master --grep-reflog=branch: Created from *. [2ms]
+2024-04-15 19:46:09.856 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-04-15 19:46:09.856 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-04-15 19:46:09.856 [info] GitHistoryProvider:resolveHistoryItemGroupBase - Failed to resolve history item group base for 'refs/heads/master'
+2024-04-15 19:46:09.857 [info] GitHistoryProvider:resolveHistoryItemGroupCommonAncestor - Failed to resolve history item group base for 'refs/heads/master'
+2024-04-15 19:46:09.877 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master [1ms]
+2024-04-15 19:46:09.882 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master [1ms]
+2024-04-15 19:46:09.889 [info] > git config --local branch.master.vscode-merge-base [1ms]
+2024-04-15 19:46:09.889 [warning] git config failed: Failed to execute git
+2024-04-15 19:46:09.895 [info] > git reflog refs/heads/master --grep-reflog=branch: Created from *. [1ms]
+2024-04-15 19:46:09.901 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-04-15 19:46:09.901 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-04-15 19:46:09.901 [info] GitHistoryProvider:resolveHistoryItemGroupBase - Failed to resolve history item group base for 'refs/heads/master'
+2024-04-15 19:46:09.901 [info] GitHistoryProvider:resolveHistoryItemGroupCommonAncestor - Failed to resolve history item group base for 'refs/heads/master'
+2024-04-15 19:46:14.584 [info] > git config --get commit.template [3ms]
+2024-04-15 19:46:14.585 [info] No remotes found in the git config file.
+2024-04-15 19:46:14.585 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-04-15 19:46:14.585 [warning] No such branch: master.
+2024-04-15 19:46:14.597 [info] > git status -z -uall [9ms]
+2024-04-15 19:46:17.700 [info] > git check-ignore -v -z --stdin [0ms]
+2024-04-15 19:46:19.627 [info] > git config --get commit.template [0ms]
+2024-04-15 19:46:19.632 [info] No remotes found in the git config file.
+2024-04-15 19:46:19.633 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-04-15 19:46:19.633 [warning] No such branch: master.
+2024-04-15 19:46:19.646 [info] > git status -z -uall [9ms]

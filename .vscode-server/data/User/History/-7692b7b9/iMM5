@@ -1,0 +1,18 @@
+"New python versions"
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#	new file:   .python-version
+#	new file:   README.rst
+#	new file:   poetry.lock
+#	new file:   pyproject.toml
+#	new file:   tests/__init__.py
+#	new file:   tests/test_zrive_ds_project.py
+#	new file:   zrive-ds
+#	new file:   zrive_ds_project/__init__.py
+#

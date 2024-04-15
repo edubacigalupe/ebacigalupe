@@ -1,0 +1,11 @@
+2024-04-15 19:43:57.826 [info] 
+
+
+
+
+2024-04-15 19:43:57.826 [info] Extension host agent started.
+2024-04-15 19:43:57.826 [info] Started initializing default profile extensions in extensions installation folder. file:///home/ebacigalupe/.vscode-server/extensions
+2024-04-15 19:43:57.836 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/ebacigalupe/.vscode-server/extensions
+2024-04-15 19:43:58.307 [info] [127.0.0.1][7d6ee277][ManagementConnection] New connection established.
+2024-04-15 19:43:58.587 [info] [127.0.0.1][00c34019][ExtensionHostConnection] New connection established.
+2024-04-15 19:43:58.896 [info] [127.0.0.1][00c34019][ExtensionHostConnection] <7178> Launched Extension Host Process.
