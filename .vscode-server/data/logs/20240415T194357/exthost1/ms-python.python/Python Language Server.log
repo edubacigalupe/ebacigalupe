@@ -13,3 +13,41 @@
 2024-04-15 19:47:39.092 [info] [Info  - 7:47:39 PM] (8744) scanned(2) 16 files over 1 exec env
 2024-04-15 19:47:39.886 [info] [Info  - 7:47:39 PM] (8744) indexed(2) 5 files over 1 exec env
 2024-04-15 19:47:39.923 [info] [Info  - 7:47:39 PM] (8744) Indexing finished(2).
+2024-04-15 19:53:33.761 [info] [Info  - 7:53:33 PM] (8744) Setting pythonPath for service "ebacigalupe": "/home/ebacigalupe/.cache/pypoetry/virtualenvs/zrive-ds-project-C6WY0P_f-py3.11/bin/python"
+2024-04-15 19:53:33.761 [info] [Info  - 7:53:33 PM] (8744) Setting environmentName for service "ebacigalupe": "3.11.0 (zrive-ds-project-C6WY0P_f-py3.11 venv)"
+2024-04-15 19:53:33.793 [info] [Info  - 7:53:33 PM] (8744) Assuming Python version 3.11.0.final.0
+2024-04-15 19:53:33.850 [info] [Info  - 7:53:33 PM] (8744) Found 9 source files
+2024-04-15 19:53:34.246 [info] [Info  - 7:53:34 PM] (8744) Indexer background runner(3) root directory: file:///home/ebacigalupe/.vscode-server/extensions/ms-python.vscode-pylance-2024.4.1/dist (index)
+2024-04-15 19:53:34.246 [info] [Info  - 7:53:34 PM] (8744) Indexing(3) started
+2024-04-15 19:53:34.563 [info] [Info  - 7:53:34 PM] (8744) scanned(3) 25 files over 1 exec env
+2024-04-15 19:53:35.305 [info] [Info  - 7:53:35 PM] (8744) indexed(3) 13 files over 1 exec env
+2024-04-15 19:53:35.341 [info] [Info  - 7:53:35 PM] (8744) Indexing finished(3).
+2024-04-15 19:54:43.976 [info] [Info  - 7:54:43 PM] (8744) Indexer background runner(4) root directory: file:///home/ebacigalupe/.vscode-server/extensions/ms-python.vscode-pylance-2024.4.1/dist (refresh)
+2024-04-15 19:54:43.976 [info] [Info  - 7:54:43 PM] (8744) Indexing(4) started
+2024-04-15 19:54:44.335 [info] [Info  - 7:54:44 PM] (8744) scanned(4) 33 files over 1 exec env
+2024-04-15 19:54:45.009 [info] [Info  - 7:54:45 PM] (8744) indexed(4) 19 files over 1 exec env
+2024-04-15 19:54:45.052 [info] [Info  - 7:54:45 PM] (8744) Indexing finished(4).
+2024-04-15 19:54:54.784 [info] [Info  - 7:54:54 PM] (8744) Indexer background runner(5) root directory: file:///home/ebacigalupe/.vscode-server/extensions/ms-python.vscode-pylance-2024.4.1/dist (refresh)
+2024-04-15 19:54:54.784 [info] [Info  - 7:54:54 PM] (8744) Indexing(5) started
+2024-04-15 19:54:55.182 [info] [Info  - 7:54:55 PM] (8744) scanned(5) 38 files over 1 exec env
+2024-04-15 19:54:55.881 [info] [Info  - 7:54:55 PM] (8744) indexed(5) 24 files over 1 exec env
+2024-04-15 19:54:55.945 [info] [Info  - 7:54:55 PM] (8744) Indexing finished(5).
+2024-04-15 19:55:11.161 [info] [Info  - 7:55:11 PM] (8744) Indexer background runner(6) root directory: file:///home/ebacigalupe/.vscode-server/extensions/ms-python.vscode-pylance-2024.4.1/dist (refresh)
+2024-04-15 19:55:11.161 [info] [Info  - 7:55:11 PM] (8744) Indexing(6) started
+2024-04-15 19:55:11.499 [info] [Info  - 7:55:11 PM] (8744) scanned(6) 39 files over 1 exec env
+2024-04-15 19:55:11.944 [info] [Info  - 7:55:11 PM] (8744) indexed(6) 24 files over 1 exec env
+2024-04-15 19:55:11.981 [info] [Info  - 7:55:11 PM] (8744) Indexing finished(6).
+2024-04-15 19:55:33.015 [info] [Info  - 7:55:33 PM] (8744) Indexer background runner(7) root directory: file:///home/ebacigalupe/.vscode-server/extensions/ms-python.vscode-pylance-2024.4.1/dist (refresh)
+2024-04-15 19:55:33.015 [info] [Info  - 7:55:33 PM] (8744) Indexing(7) started
+2024-04-15 19:55:33.435 [info] [Info  - 7:55:33 PM] (8744) scanned(7) 44 files over 1 exec env
+2024-04-15 19:55:34.346 [info] [Info  - 7:55:34 PM] (8744) Indexing finished(7).
+2024-04-15 19:55:47.172 [info] [Info  - 7:55:47 PM] (8744) Indexer background runner(8) root directory: file:///home/ebacigalupe/.vscode-server/extensions/ms-python.vscode-pylance-2024.4.1/dist (refresh)
+2024-04-15 19:55:47.173 [info] [Info  - 7:55:47 PM] (8744) Indexing(8) started
+2024-04-15 19:55:47.543 [info] [Info  - 7:55:47 PM] (8744) scanned(8) 44 files over 1 exec env
+2024-04-15 19:55:48.418 [info] [Info  - 7:55:48 PM] (8744) indexed(8) 28 files over 1 exec env
+2024-04-15 19:55:48.470 [info] [Info  - 7:55:48 PM] (8744) Indexing finished(8).
+2024-04-15 19:57:19.507 [info] [Info  - 7:57:19 PM] (8744) Indexer background runner(9) root directory: file:///home/ebacigalupe/.vscode-server/extensions/ms-python.vscode-pylance-2024.4.1/dist (refresh)
+2024-04-15 19:57:19.507 [info] [Info  - 7:57:19 PM] (8744) Indexing(9) started
+2024-04-15 19:57:20.063 [info] [Info  - 7:57:20 PM] (8744) scanned(9) 137 files over 1 exec env
+2024-04-15 19:57:21.289 [info] [Info  - 7:57:21 PM] (8744) indexed(9) 95 files over 1 exec env
+2024-04-15 19:57:21.369 [info] [Info  - 7:57:21 PM] (8744) Indexing finished(9).

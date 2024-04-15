@@ -62,3 +62,82 @@
   cmd: '/home/ebacigalupe/.cache/pypoetry/virtualenvs/zrive-ds-tetxTVzp-py3.11/bin/python -I /home/ebacigalupe/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/get_output_via_markers.py /home/ebacigalupe/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/interpreterInfo.py'
 }
 2024-04-15 19:48:06.473 [info] Python interpreter path: ./.pyenv/versions/3.11.0/bin/python
+2024-04-15 19:50:33.439 [info] Send text to terminal: /home/ebacigalupe/.pyenv/versions/3.11.0/bin/python /home/ebacigalupe/zrive-ds-project/zrive-ds/src/module_1/module_1_meteo_api.py
+2024-04-15 19:50:33.578 [info] Discover tests for workspace name: ebacigalupe - uri: /home/ebacigalupe/zrive-ds-project/zrive-ds/src/module_1/module_1_meteo_api.py
+2024-04-15 19:51:22.930 [info] Running installed packages checker:  python /home/ebacigalupe/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/installed_check.py /home/ebacigalupe/zrive-ds-project/pyproject.toml
+2024-04-15 19:51:22.930 [info] > python ./.vscode-server/extensions/ms-python.python-2024.4.1/python_files/installed_check.py ./zrive-ds-project/pyproject.toml
+2024-04-15 19:51:22.935 [error] Error while getting installed packages check result:
+ [Error: spawn python ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:284:19)
+	at onErrorNT (node:internal/child_process:477:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn python',
+  path: 'python',
+  spawnargs: [
+    '/home/ebacigalupe/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/installed_check.py',
+    '/home/ebacigalupe/zrive-ds-project/pyproject.toml'
+  ]
+}
+2024-04-15 19:53:03.858 [info] > conda info --json
+2024-04-15 19:53:03.890 [info] > hatch env show --json
+2024-04-15 19:53:03.891 [info] cwd: .
+2024-04-15 19:53:03.899 [info] Found: /bin/python3 --> /bin/python3.10
+2024-04-15 19:53:03.900 [info] Found: /bin/python3.10 --> /bin/python3.10
+2024-04-15 19:53:03.910 [info] Found: /usr/bin/python3 --> /usr/bin/python3.10
+2024-04-15 19:53:03.910 [info] Found: /usr/bin/python3.10 --> /usr/bin/python3.10
+2024-04-15 19:53:03.925 [info] > ./.pyenv/shims/python -I ./.vscode-server/extensions/ms-python.python-2024.4.1/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.4.1/python_files/interpreterInfo.py
+2024-04-15 19:53:04.092 [error] [Error: Command failed: /home/ebacigalupe/.pyenv/shims/python -I /home/ebacigalupe/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/get_output_via_markers.py /home/ebacigalupe/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/interpreterInfo.py
+pyenv: python: command not found
+
+The `python' command exists in these Python versions:
+  3.11.0
+
+Note: See 'pyenv help global' for tips on allowing both
+      python2 and python3 to be found.
+
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:529:35)
+	at maybeClose (node:internal/child_process:1098:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:303:5)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: '/home/ebacigalupe/.pyenv/shims/python -I /home/ebacigalupe/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/get_output_via_markers.py /home/ebacigalupe/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/interpreterInfo.py'
+}
+2024-04-15 19:53:04.112 [info] > /bin/python3 -I ./.vscode-server/extensions/ms-python.python-2024.4.1/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.4.1/python_files/interpreterInfo.py
+2024-04-15 19:53:04.132 [info] > /usr/bin/python3 -I ./.vscode-server/extensions/ms-python.python-2024.4.1/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.4.1/python_files/interpreterInfo.py
+2024-04-15 19:53:06.101 [info] > ./.pyenv/shims/python -I ./.vscode-server/extensions/ms-python.python-2024.4.1/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.4.1/python_files/interpreterInfo.py
+2024-04-15 19:53:06.216 [error] [Error: Command failed: /home/ebacigalupe/.pyenv/shims/python -I /home/ebacigalupe/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/get_output_via_markers.py /home/ebacigalupe/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/interpreterInfo.py
+pyenv: python: command not found
+
+The `python' command exists in these Python versions:
+  3.11.0
+
+Note: See 'pyenv help global' for tips on allowing both
+      python2 and python3 to be found.
+
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:529:35)
+	at maybeClose (node:internal/child_process:1098:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:303:5)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: '/home/ebacigalupe/.pyenv/shims/python -I /home/ebacigalupe/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/get_output_via_markers.py /home/ebacigalupe/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/interpreterInfo.py'
+}
+2024-04-15 19:53:33.711 [info] > ./.cache/pypoetry/virtualenvs/zrive-ds-project-C6WY0P_f-py3.11/bin/python -I ./.vscode-server/extensions/ms-python.python-2024.4.1/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.4.1/python_files/interpreterInfo.py
+2024-04-15 19:53:33.742 [info] Discover tests for workspace name: ebacigalupe - uri: /home/ebacigalupe
+2024-04-15 19:53:33.742 [info] Python interpreter path: ./.cache/pypoetry/virtualenvs/zrive-ds-project-C6WY0P_f-py3.11/bin/python
+2024-04-15 19:53:33.810 [info] > . ./.cache/pypoetry/virtualenvs/zrive-ds-project-C6WY0P_f-py3.11/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ./.vscode-server/extensions/ms-python.python-2024.4.1/python_files/printEnvVariables.py
+2024-04-15 19:53:33.811 [info] shell: bash
+2024-04-15 19:53:34.171 [info] Setting environment variable VIRTUAL_ENV in collection to /home/ebacigalupe/.cache/pypoetry/virtualenvs/zrive-ds-project-C6WY0P_f-py3.11 {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2024-04-15 19:53:34.171 [info] Prepending environment variable PS1 in collection with (zrive-ds-project-C6WY0P_f-py3.11)  {"applyAtShellIntegration":true,"applyAtProcessCreation":false}
+2024-04-15 19:53:34.171 [info] Prepending environment variable PATH in collection with /home/ebacigalupe/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/deactivate/bash:/home/ebacigalupe/.cache/pypoetry/virtualenvs/zrive-ds-project-C6WY0P_f-py3.11/bin: {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2024-04-15 19:53:56.859 [info] Send text to terminal: /home/ebacigalupe/.cache/pypoetry/virtualenvs/zrive-ds-project-C6WY0P_f-py3.11/bin/python /home/ebacigalupe/zrive-ds-project/zrive-ds/src/module_1/module_1_meteo_api.py
+2024-04-15 19:55:26.556 [info] Discover tests for workspace name: ebacigalupe - uri: /home/ebacigalupe/.cache/pypoetry/virtualenvs/zrive-ds-project-C6WY0P_f-py3.11/lib/python3.11/site-packages/numpy/f2py/setup.cfg
+2024-04-15 19:55:33.710 [info] Discover tests for workspace name: ebacigalupe - uri: /home/ebacigalupe/.cache/pypoetry/virtualenvs/zrive-ds-project-C6WY0P_f-py3.11/lib/python3.11/site-packages/pandas/pyproject.toml
+2024-04-15 19:55:42.434 [info] Send text to terminal: /home/ebacigalupe/.cache/pypoetry/virtualenvs/zrive-ds-project-C6WY0P_f-py3.11/bin/python /home/ebacigalupe/zrive-ds-project/zrive-ds/src/module_1/module_1_meteo_api.py
+2024-04-15 19:56:41.749 [info] Send text to terminal: /home/ebacigalupe/.cache/pypoetry/virtualenvs/zrive-ds-project-C6WY0P_f-py3.11/bin/python /home/ebacigalupe/zrive-ds-project/zrive-ds/src/module_1/module_1_meteo_api.py
+2024-04-15 19:57:18.193 [info] Send text to terminal: /home/ebacigalupe/.cache/pypoetry/virtualenvs/zrive-ds-project-C6WY0P_f-py3.11/bin/python /home/ebacigalupe/zrive-ds-project/zrive-ds/src/module_1/module_1_meteo_api.py
