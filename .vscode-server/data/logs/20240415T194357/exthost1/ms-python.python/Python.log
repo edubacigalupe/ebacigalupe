@@ -61,3 +61,4 @@
   signal: null,
   cmd: '/home/ebacigalupe/.cache/pypoetry/virtualenvs/zrive-ds-tetxTVzp-py3.11/bin/python -I /home/ebacigalupe/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/get_output_via_markers.py /home/ebacigalupe/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/interpreterInfo.py'
 }
+2024-04-15 19:48:06.473 [info] Python interpreter path: ./.pyenv/versions/3.11.0/bin/python
