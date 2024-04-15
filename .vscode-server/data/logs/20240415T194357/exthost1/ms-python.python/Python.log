@@ -1,0 +1,63 @@
+2024-04-15 19:47:37.305 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-04-15 19:47:37.305 [info] Experiment 'pythonREPLSmartSend' is active
+2024-04-15 19:47:37.305 [info] Experiment 'pythonSurveyNotification' is active
+2024-04-15 19:47:37.305 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-04-15 19:47:37.305 [info] Experiment 'pythonTestAdapter' is active
+2024-04-15 19:47:37.305 [info] Default formatter is set to null for workspace /home/ebacigalupe
+2024-04-15 19:47:37.305 [info] Test server listening.
+2024-04-15 19:47:37.305 [warning] Failed to check if /home/ebacigalupe/.cache/pypoetry/virtualenvs/zrive-ds-tetxTVzp-py3.11/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/home/ebacigalupe/.cache/pypoetry/virtualenvs/zrive-ds-tetxTVzp-py3.11/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/home/ebacigalupe/.cache/pypoetry/virtualenvs/zrive-ds-tetxTVzp-py3.11/bin/python'
+}
+2024-04-15 19:47:37.315 [warning] Identifier for poetry failed to identify /home/ebacigalupe/.cache/pypoetry/virtualenvs/zrive-ds-tetxTVzp-py3.11/bin/python [Error: ENOENT: no such file or directory, scandir '/home/ebacigalupe/.cache/pypoetry/virtualenvs/zrive-ds-tetxTVzp-py3.11/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/home/ebacigalupe/.cache/pypoetry/virtualenvs/zrive-ds-tetxTVzp-py3.11/bin'
+}
+2024-04-15 19:47:37.317 [warning] Identifier for virt-virtualenv failed to identify /home/ebacigalupe/.cache/pypoetry/virtualenvs/zrive-ds-tetxTVzp-py3.11/bin/python [Error: ENOENT: no such file or directory, scandir '/home/ebacigalupe/.cache/pypoetry/virtualenvs/zrive-ds-tetxTVzp-py3.11/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/home/ebacigalupe/.cache/pypoetry/virtualenvs/zrive-ds-tetxTVzp-py3.11/bin'
+}
+2024-04-15 19:47:37.357 [info] > ./.cache/pypoetry/virtualenvs/zrive-ds-tetxTVzp-py3.11/bin/python -I ./.vscode-server/extensions/ms-python.python-2024.4.1/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.4.1/python_files/interpreterInfo.py
+2024-04-15 19:47:37.364 [info] > ./.pyenv/bin/pyenv which python
+2024-04-15 19:47:37.365 [info] cwd: .
+2024-04-15 19:47:37.370 [error] [Error: Command failed: /home/ebacigalupe/.cache/pypoetry/virtualenvs/zrive-ds-tetxTVzp-py3.11/bin/python -I /home/ebacigalupe/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/get_output_via_markers.py /home/ebacigalupe/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/interpreterInfo.py
+/bin/sh: 1: /home/ebacigalupe/.cache/pypoetry/virtualenvs/zrive-ds-tetxTVzp-py3.11/bin/python: not found
+
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:529:35)
+	at maybeClose (node:internal/child_process:1098:16)
+	at Socket.<anonymous> (node:internal/child_process:450:11)
+	at Socket.emit (node:events:517:28)
+	at Pipe.<anonymous> (node:net:350:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: '/home/ebacigalupe/.cache/pypoetry/virtualenvs/zrive-ds-tetxTVzp-py3.11/bin/python -I /home/ebacigalupe/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/get_output_via_markers.py /home/ebacigalupe/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/interpreterInfo.py'
+}
+2024-04-15 19:47:37.429 [info] > ./.pyenv/versions/3.11.0/bin/python -I ./.vscode-server/extensions/ms-python.python-2024.4.1/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.4.1/python_files/interpreterInfo.py
+2024-04-15 19:47:37.499 [info] > ./.pyenv/versions/3.11.0/bin/python ./.vscode-server/extensions/ms-python.python-2024.4.1/python_files/printEnvVariables.py
+2024-04-15 19:47:37.500 [info] shell: bash
+2024-04-15 19:47:37.810 [info] Prepending environment variable PATH in collection to /home/ebacigalupe/.pyenv/versions/3.11.0/bin:/home/ebacigalupe/.vscode-server/bin/e170252f762678dec6ca2cc69aba1570769a5d39/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/System32/HWAudioDriverLibs:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Users/Administrator/AppData/Local/Microsoft/WindowsApps:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps:/mnt/c/windows/system32/HWAudioDriver/:/mnt/c/Users/eduba/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/eduba/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin: {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2024-04-15 19:47:37.810 [info] Send text to terminal: /home/ebacigalupe/.pyenv/versions/3.11.0/bin/python /home/ebacigalupe/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/printEnvVariablesToFile.py /home/ebacigalupe/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/deactivate/bash/envVars.txt
+2024-04-15 19:47:38.347 [info] Starting Pylance language server.
+2024-04-15 19:47:39.377 [info] > ./.cache/pypoetry/virtualenvs/zrive-ds-tetxTVzp-py3.11/bin/python -I ./.vscode-server/extensions/ms-python.python-2024.4.1/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.4.1/python_files/interpreterInfo.py
+2024-04-15 19:47:39.379 [error] [Error: Command failed: /home/ebacigalupe/.cache/pypoetry/virtualenvs/zrive-ds-tetxTVzp-py3.11/bin/python -I /home/ebacigalupe/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/get_output_via_markers.py /home/ebacigalupe/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/interpreterInfo.py
+/bin/sh: 1: /home/ebacigalupe/.cache/pypoetry/virtualenvs/zrive-ds-tetxTVzp-py3.11/bin/python: not found
+
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:529:35)
+	at maybeClose (node:internal/child_process:1098:16)
+	at Socket.<anonymous> (node:internal/child_process:450:11)
+	at Socket.emit (node:events:517:28)
+	at Pipe.<anonymous> (node:net:350:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: '/home/ebacigalupe/.cache/pypoetry/virtualenvs/zrive-ds-tetxTVzp-py3.11/bin/python -I /home/ebacigalupe/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/get_output_via_markers.py /home/ebacigalupe/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/interpreterInfo.py'
+}

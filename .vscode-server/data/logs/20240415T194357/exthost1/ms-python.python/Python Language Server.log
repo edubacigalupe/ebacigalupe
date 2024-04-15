@@ -1,0 +1,15 @@
+2024-04-15 19:47:37.995 [info] (Client) Pylance async client (2024.4.1) started with python extension (2024.4.1)
+2024-04-15 19:47:38.331 [info] [Info  - 7:47:38 PM] (8744) Pylance language server 2024.4.1 (pyright version 1.1.356, commit 6652c4a8) starting
+2024-04-15 19:47:38.332 [info] [Info  - 7:47:38 PM] (8744) Server root directory: file:///home/ebacigalupe/.vscode-server/extensions/ms-python.vscode-pylance-2024.4.1/dist
+2024-04-15 19:47:38.333 [info] [Info  - 7:47:38 PM] (8744) Starting service instance "ebacigalupe"
+2024-04-15 19:47:38.365 [info] [Info  - 7:47:38 PM] (8744) Setting pythonPath for service "ebacigalupe": "/home/ebacigalupe/.pyenv/versions/3.11.0/bin/python"
+2024-04-15 19:47:38.366 [info] [Info  - 7:47:38 PM] (8744) Setting environmentName for service "ebacigalupe": "3.11.0 (global)"
+2024-04-15 19:47:38.385 [info] [Info  - 7:47:38 PM] (8744) Assuming Python version 3.11.0.final.0
+2024-04-15 19:47:38.424 [info] [Info  - 7:47:38 PM] (8744) Found 9 source files
+2024-04-15 19:47:38.674 [info] [Info  - 7:47:38 PM] (8744) Background analysis(1) root directory: file:///home/ebacigalupe/.vscode-server/extensions/ms-python.vscode-pylance-2024.4.1/dist
+2024-04-15 19:47:38.676 [info] [Info  - 7:47:38 PM] (8744) Background analysis(1) started
+2024-04-15 19:47:38.798 [info] [Info  - 7:47:38 PM] (8744) Indexer background runner(2) root directory: file:///home/ebacigalupe/.vscode-server/extensions/ms-python.vscode-pylance-2024.4.1/dist (index)
+2024-04-15 19:47:38.798 [info] [Info  - 7:47:38 PM] (8744) Indexing(2) started
+2024-04-15 19:47:39.092 [info] [Info  - 7:47:39 PM] (8744) scanned(2) 16 files over 1 exec env
+2024-04-15 19:47:39.886 [info] [Info  - 7:47:39 PM] (8744) indexed(2) 5 files over 1 exec env
+2024-04-15 19:47:39.923 [info] [Info  - 7:47:39 PM] (8744) Indexing finished(2).

@@ -9,3 +9,24 @@
 2024-04-15 19:43:58.307 [info] [127.0.0.1][7d6ee277][ManagementConnection] New connection established.
 2024-04-15 19:43:58.587 [info] [127.0.0.1][00c34019][ExtensionHostConnection] New connection established.
 2024-04-15 19:43:58.896 [info] [127.0.0.1][00c34019][ExtensionHostConnection] <7178> Launched Extension Host Process.
+2024-04-15 19:47:29.115 [info] Getting Manifest... ms-python.python
+2024-04-15 19:47:29.173 [info] Installing extension: ms-python.python
+2024-04-15 19:47:29.848 [info] Getting Manifest... ms-python.vscode-pylance
+2024-04-15 19:47:29.882 [info] Getting Manifest... ms-python.debugpy
+2024-04-15 19:47:29.937 [info] Installing extension: ms-python.vscode-pylance
+2024-04-15 19:47:29.938 [info] Installing extension: ms-python.debugpy
+2024-04-15 19:47:31.711 [info] Extension signature is verified: ms-python.debugpy
+2024-04-15 19:47:31.843 [info] Extension signature is verified: ms-python.python
+2024-04-15 19:47:32.091 [info] Extension signature is verified: ms-python.vscode-pylance
+2024-04-15 19:47:32.371 [info] Extracted extension to file:///home/ebacigalupe/.vscode-server/extensions/ms-python.debugpy-2024.4.0-linux-x64: ms-python.debugpy
+2024-04-15 19:47:32.379 [info] Renamed to /home/ebacigalupe/.vscode-server/extensions/ms-python.debugpy-2024.4.0-linux-x64
+2024-04-15 19:47:32.383 [info] Extracting extension completed. ms-python.debugpy
+2024-04-15 19:47:34.640 [info] Extracted extension to file:///home/ebacigalupe/.vscode-server/extensions/ms-python.python-2024.4.1: ms-python.python
+2024-04-15 19:47:34.651 [info] Renamed to /home/ebacigalupe/.vscode-server/extensions/ms-python.python-2024.4.1
+2024-04-15 19:47:34.655 [info] Extracting extension completed. ms-python.python
+2024-04-15 19:47:36.535 [info] Extracted extension to file:///home/ebacigalupe/.vscode-server/extensions/ms-python.vscode-pylance-2024.4.1: ms-python.vscode-pylance
+2024-04-15 19:47:36.547 [info] Renamed to /home/ebacigalupe/.vscode-server/extensions/ms-python.vscode-pylance-2024.4.1
+2024-04-15 19:47:36.551 [info] Extracting extension completed. ms-python.vscode-pylance
+2024-04-15 19:47:36.557 [info] Extension installed successfully: ms-python.debugpy
+2024-04-15 19:47:36.558 [info] Extension installed successfully: ms-python.python
+2024-04-15 19:47:36.558 [info] Extension installed successfully: ms-python.vscode-pylance
